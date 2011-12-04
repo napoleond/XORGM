@@ -6,4 +6,4 @@ I created an XML schema that I believed could describe any org chart that would 
 
 The resulting ~3k LOC of ActionScript (we were targetting Adobe AIR) are included here, along with a "help.html" file which I produced as a guide for the curriculum developers. The program works surprisingly well considering that it was the spare-time summer project of a single developer, but sadly that fall came with new priorities at the school and the project was mothballed.
 
-I may pick it up again one day, but in the meantime if anyone else wants to play with it feel free! One caveat is that it was only ever developed and tested on Windows, and I suspect that certain aspects (particularly the menus) might not work properly in other OSes.
+I may pick it up again one day, but in the meantime if anyone else wants to play with it feel free! One caveat is that it was only ever developed and tested on Windows, and I suspect that certain aspects (particularly the menus) might not work properly in other OSes. It is also not documented or commented well, for which I apologize--it's always so strange to look back on my old code and realize the ways I've changed.
