@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-16"?>
+<org xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XorgM.xsd">
+<!--
+
+THIS MAKES AN ORG CHART
+	id is a reference to any piece or entire chart
+	
+	-->
+<chart id="o1">
+	<!--
+	
+	PIECES are nodes of org chart
+		top and left define position (central reference point)
+		type defines shape, style
+		color defines text color
+		background defines background color
+		
+		-->
+	<piece id="op1" top="100" left="100" type="rect, round, bevel" color="#FFFFFF" bg="#FF0000">
+		<!-- TITLE holds node text -->
+		<title>Node 1 Title</title>
+		<!--
+		
+		LINK defines edges, aka node relationships. (it is an optional tag)
+			rel can be sib (for sibling), sub (for subordinate), child
+			the target can be an entire org chart or flow chart if desired.
+			type defines line style
+			
+			 -->
+		<link rel="sub" target="f1" type="arrow" color="#FF0000" />
+	</piece>
+	<!--
+	
+	ARROW is pretty self explanatory
+		top, left, bottom, right define corners of arrow (top left is beginning of arrow)
+		type defines style
+		textcolor defines text color
+		color defines arrow color
+		
+		-->
+	<arrow top="300" left="100" bottom="300" right="300" type="bubble" color="#FFFFFF" bg="#FF0000">
+		<!-- TITLE holds arrow text -->
+		<title>Arrow Descriptor</title>
+	</arrow>
+</chart>
+</org>

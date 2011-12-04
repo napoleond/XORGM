@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><application xmlns="http://ns.adobe.com/air/application/1.0">
+
+  <id>com.cfsas.mml.xorgm</id>
+
+  <version>1.1</version>
+
+  <filename>XORGM</filename>
+
+  <description/>
+
+  <name>eXcellent ORg chart Maker</name>
+
+  <copyright/>
+
+  <initialWindow>
+    <content>start.swf</content>
+    <systemChrome>none</systemChrome>
+    <transparent>true</transparent>
+    <visible>true</visible>
+    <maximizable>true</maximizable>
+    <minimizable>true</minimizable>
+    <resizable>true</resizable>
+  </initialWindow>
+
+  <icon>
+    <image128x128>AppIconsForAIRPublish/AIRApp_128.png</image128x128>
+    <image48x48>AppIconsForAIRPublish/AIRApp_48.png</image48x48>
+    <image32x32>AppIconsForAIRPublish/AIRApp_32.png</image32x32>
+    <image16x16>AppIconsForAIRPublish/AIRApp_16.png</image16x16>
+  </icon>
+
+  <customUpdateUI>false</customUpdateUI>
+
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+
+
+
+  <fileTypes>
+    <fileType>
+      <name>XORGM</name>
+      <extension>xorgm</extension>
+      <description>Xcellent ORg chart Maker file</description>
+      <contentType>xml</contentType>
+      <icon/>
+    </fileType>
+  </fileTypes>
+
+</application>

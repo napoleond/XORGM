@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XorgM.xsd">
+
+	<chart id="o1">
+
+		<piece id="op1" top="100" left="100" type="rect, round, bevel" color="#FFFFFF" background="#FF0000">
+
+			<title>Node 1 Title</title>
+
+			<link rel="sub" target="f1" type="arrow" />
+
+		</piece>
+
+		<arrow top="300" left="100" bottom="300" right="300" type="bubble" color="#FFFFFF" background="#FF0000">
+
+			<title>Arrow Descriptor</title>
+
+		</arrow>
+
+	</chart>
+
+</org>
